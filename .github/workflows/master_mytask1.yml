@@ -44,7 +44,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9B6CDB47E90C4488B84BA6A9F03AB2A8 }}
 
       - name: 'Run Azure Functions Action'
-        uses: Azure/functions-action@v4
+        uses: Azure/functions-action@v1
         id: fa
         with:
           app-name: 'myTask1'
